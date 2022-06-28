@@ -14,7 +14,7 @@ function Home() {
                  style={{
                     position: 'fixed',
                     zIndex: 1,
-                    width: '100 %',
+                    width: '100%',
                   }}>
                  <Row>
                 <Col span={12} offset={1}>

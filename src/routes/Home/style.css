@@ -1,5 +1,6 @@
 .ant-layout-header.header {
     background: #020d18;
+    /* width: 100%; */
 }
 
 .ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
@@ -55,13 +56,13 @@ h4.home__text{
 /* .header{
     transition: .4s all ease;
 } */
-.header.active {
+/* .header.active {
     position: fixed;
     z-index: 1000;
     width: 100%;
     padding: 0px 30px;
     background-color: #191919;
-}
+} */
 
 .logo {
     width: auto;

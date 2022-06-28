@@ -16,8 +16,19 @@ export default function App() {
     return (
       <BrowserRouter>
         <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
-          <Route
+        <Route 
+          path="/" 
+          element={
+            <React.Suspense fallback={<Loading />}>
+                  <Home />
+                  <About />
+                  <Skill />
+                  <Portofolio />
+                  <Footer />
+              </React.Suspense>
+          } 
+          />
+          {/* <Route
             path="home"
             element={
               <React.Suspense fallback={<Loading />}>
@@ -28,7 +39,7 @@ export default function App() {
                   <Footer />
               </React.Suspense>
             }
-          />
+          /> */}
            <Route path="/*" element={<NoMatch />} />
         </Routes>
       </BrowserRouter>
