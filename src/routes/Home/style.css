@@ -1,0 +1,73 @@
+.ant-layout-header.header {
+    background: #020d18;
+}
+
+.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
+    background: #020d18;
+}
+.home__bg {
+    width: 100%;
+    background-image: url(C:/Users/Admin/Documents/profile/src/img/bg4.jpg);
+    background-color: #010101;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* li.nav__items{
+    font-size: 18px;
+    padding-bottom: 15px;
+    transition: 0.4s ease-in-out;
+} */
+
+.home__content{
+    padding: 115px 0px;
+    /* text-align: center; */
+
+}
+
+h1.home__text {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: antiquewhite;
+}
+
+h2.home__text{
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3.home__text{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+}
+h4.home__text{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+}
+/* .header{
+    transition: .4s all ease;
+} */
+.header.active {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+  }
+
+.ant-menu-overflow-item.ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child {
+    background-color: #47597E;
+}

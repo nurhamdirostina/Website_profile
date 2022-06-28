@@ -1,0 +1,25 @@
+.copyright {
+    color: #c6c9d8;
+    font-size: 14px;
+    opacity: 0.75;  
+    padding-top: 15px;
+}
+
+.footer {
+    background: #000;
+}
+
+.footerLink {
+    margin-right: 10px;
+}
+
+h1.hire__text {
+    font-size: 50px;
+}
+
+p.hire__text {
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(29,29,36,.75);
+    font-weight: 400;
+}
