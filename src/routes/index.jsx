@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/style.css';
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import {  HashRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import Loading from '../components/Loading';
 
@@ -14,7 +14,7 @@ const NoMatch = React.lazy(() => import("./NoMatch"));
 
 export default function App() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
         <Route 
           path="/" 
@@ -28,21 +28,17 @@ export default function App() {
               </React.Suspense>
           } 
           />
-          {/* <Route
+          <Route
             path="home"
             element={
               <React.Suspense fallback={<Loading />}>
                   <Home />
-                  <About />
-                  <Skill />
-                  <Portofolio />
-                  <Footer />
               </React.Suspense>
             }
-          /> */}
+          />
            <Route path="/*" element={<NoMatch />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
   
