@@ -18,7 +18,7 @@ function Portofolio() {
                         style={{
                         width: 350,
                         }}
-                        cover={<img alt="project" src="project1.png" />}
+                        cover={<img alt="project" src="https://nurhamdirostina.github.io/Website_profile/project1.PNG" />}
                     >
                         <Meta title="Clodeo Login" description="clodeo login" />
                     </Card>
@@ -30,7 +30,7 @@ function Portofolio() {
                         style={{
                         width: 350,
                         }}
-                        cover={<img alt="example" src="project2.png" />}
+                        cover={<img alt="example" src="https://nurhamdirostina.github.io/Website_profile/project2.PNG" />}
                     >
                         <Meta title="Clodeo Employee" description="clodeo employee" />
                     </Card>
