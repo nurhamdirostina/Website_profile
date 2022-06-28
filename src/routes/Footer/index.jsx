@@ -15,13 +15,13 @@ function Last(){
             </div>
             <div className="sosmed">
             <a href="https://www.linkedin.com/in/nurhamdi-rostina-b97453241" className="footerLink">
-                <img src="https://nurhamdirostina.github.io/Website_profile/linkedin.png" alt="icon" />
+                <img src="https://nurhamdirostina.github.io/profile/linkedin.png" alt="icon" />
             </a>
             <a href="https://github.com/nurhamdirostina/Website_profile" className="footerLink">
-                <img src="https://nurhamdirostina.github.io/Website_profile/github.png" alt="icon" />
+                <img src="https://nurhamdirostina.github.io/profile/github.png" alt="icon" />
             </a>
             <a href="https://www.instagram.com/nrhmdi_rst" className="footerLink">
-                <img src="https://nurhamdirostina.github.io/Website_profile/instagram.png" alt="icon" />
+                <img src="https://nurhamdirostina.github.io/profile/instagram.png" alt="icon" />
             </a>
             <span className="copyright"> Copyright ©2022 Created by Nurhamdi Rostina.</span>
             </div>
@@ -31,5 +31,3 @@ function Last(){
 }
 
 export default Last;
-
-// align__items__center justify__content__space__between pz-10

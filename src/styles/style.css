@@ -60,22 +60,7 @@ strong{
   color: #3E497A;;
   font-weight: 600;
 }
-
-/* button.btn {
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 5px;
-  border: 2px solid #f9004d;
-  background-color: #f9004d;
-  color: #fff!important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  transition: .4s all ease;
-  height: 50px;
-  width: 180px;
-  margin: 0px 10px;
-} */
-  .p__color {
+.p__color {
     color: rgba(198,201,216,.75);
     font-size: 18px;
     line-height: 30px;

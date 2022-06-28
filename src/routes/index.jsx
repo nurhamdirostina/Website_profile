@@ -28,14 +28,6 @@ export default function App() {
               </React.Suspense>
           } 
           />
-          <Route
-            path="home"
-            element={
-              <React.Suspense fallback={<Loading />}>
-                  <Home />
-              </React.Suspense>
-            }
-          />
            <Route path="/*" element={<NoMatch />} />
         </Routes>
       </HashRouter>

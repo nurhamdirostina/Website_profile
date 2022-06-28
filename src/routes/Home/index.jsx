@@ -18,7 +18,7 @@ function Home() {
                   }}>
                  <Row>
                 <Col span={12} offset={1}>
-                    <img src="https://nurhamdirostina.github.io/Website_profile/user.png" alt="logo" className="logo" />
+                    <img src="https://nurhamdirostina.github.io/profile/user.png" alt="logo" className="logo" />
                 </Col>
 
                 <Col span={8}>
@@ -39,7 +39,6 @@ function Home() {
                 </Col>
                 </Row>
                 </Header>
-                {/* HOME CONTENT */}
                 <Content className=" container home__content" >
                         <h1 className="home__text pz__10">
                             WELCOME TO MY WEBSITE 

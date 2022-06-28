@@ -53,17 +53,6 @@ h4.home__text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 20px;
 }
-/* .header{
-    transition: .4s all ease;
-} */
-/* .header.active {
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    padding: 0px 30px;
-    background-color: #191919;
-} */
-
 .logo {
     width: auto;
     height: auto;

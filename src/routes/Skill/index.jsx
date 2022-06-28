@@ -12,7 +12,7 @@ function Skill(){
                     <Col span={6} offset={2}>
                         <div className="box">
                             <div className="icon">
-                              <img src="https://nurhamdirostina.github.io/Website_profile/competence.png" alt="icon" />
+                              <img src="https://nurhamdirostina.github.io/profile/competence.png" alt="icon" />
                             </div>
                             <div className="padding-top">
                                 <h1>Skill</h1>
@@ -30,7 +30,7 @@ function Skill(){
                     <Col span={6} offset={1}>
                         <div className="box">
                             <div className="icon">
-                              <img src="https://nurhamdirostina.github.io/Website_profile/education.png" alt="icon" />
+                              <img src="https://nurhamdirostina.github.io/profile/education.png" alt="icon" />
                             </div>
                             <div className="padding-top">
                                 <h1>Education</h1>
@@ -46,7 +46,7 @@ function Skill(){
                     <Col span={6} offset={1}>
                         <div className="box">
                             <div className="icon">
-                              <img src="https://nurhamdirostina.github.io/Website_profile/experience.png" alt="icon" />
+                              <img src="https://nurhamdirostina.github.io/profile/experience.png" alt="icon" />
                             </div>
                             <div className="padding-top">
                                 <h1>Experience</h1>
