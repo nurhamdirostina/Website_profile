@@ -9,7 +9,7 @@ function Skill(){
         <div className="skill component__space">
             <div className="container">
                 <Row>
-                    <Col span={6} offset={2}>
+                    <Col xs={14} sm={16} md={17} lg={6} xl={6} offset={2}>
                         <div className="box">
                             <div className="icon">
                               <img src="https://nurhamdirostina.github.io/profile/competence.png" alt="icon" />
@@ -21,13 +21,14 @@ function Skill(){
                                 <CheckCircleTwoTone /> Javascript <br/>
                                 <CheckCircleTwoTone /> PHP <br/>
                                 <CheckCircleTwoTone /> Java <br/>
-                                <CheckCircleTwoTone /> Git
+                                <CheckCircleTwoTone /> Git <br/>
+                                <CheckCircleTwoTone /> React
                                 </p>
                             </div>
                         </div>
                         </Col>
 
-                    <Col span={6} offset={1}>
+                    <Col xs={14} sm={16} md={17} lg={6} xl={6} offset={2}>
                         <div className="box">
                             <div className="icon">
                               <img src="https://nurhamdirostina.github.io/profile/education.png" alt="icon" />
@@ -36,14 +37,14 @@ function Skill(){
                                 <h1>Education</h1>
                                 <p className="p__color">
                                     class: XI <br/>
-                                    SMK Negeri 11 Bandung <br/><br/>
+                                    SMK Negeri 11 Bandung <br/><br/><br/>
                                     skill competency <br/> Software Engineering
                                 </p>    
                             </div>
                         </div>
                     </Col>
 
-                    <Col span={6} offset={1}>
+                    <Col xs={14} sm={16} md={17} lg={6} xl={6} offset={2}>
                         <div className="box">
                             <div className="icon">
                               <img src="https://nurhamdirostina.github.io/profile/experience.png" alt="icon" />
@@ -52,7 +53,8 @@ function Skill(){
                                 <h1>Experience</h1>
                                 <p className="p__color">
                                     PT. Clodeo Indonesia Jaya <br/>
-                                    Internship, Front-end Developer • April - Juni 2022
+                                    Internship, Front-end Developer <br/><br/>
+                                    • April - Juni 2022
                                 </p>
                             </div>
                         </div>

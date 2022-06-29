@@ -40,6 +40,7 @@ function Home() {
                 </Row>
                 </Header>
                 <Content className=" container home__content" >
+                    <div className="text">
                         <h1 className="home__text pz__10">
                             WELCOME TO MY WEBSITE 
                         </h1>
@@ -52,6 +53,7 @@ function Home() {
                         <h4 className="home__text pz__10">
                           RPL expertise competency
                         </h4>
+                    </div>
                 </Content>
             </div>
         </Layout>

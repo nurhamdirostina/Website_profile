@@ -14,3 +14,33 @@
 .padding-top {
     padding-top: 20px;
 }
+
+
+/* @media only screen and (max-width: 1440px){
+    .box{
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1205px){
+    .ant-col.ant-col-6.ant-col-offset-2{
+       max-width: 100%!important;
+    }
+    .ant-col.ant-col-6.ant-col-offset-1{
+        max-width: 100%!important;
+     
+     }
+     .ant-col.ant-col-6.ant-col-offset-1{
+        max-width: 100%!important;
+        
+     }
+     
+} */
+
+ @media only screen and (max-width: 1440px){
+    .ant-col.ant-col-offset-2.ant-col-xs-14.ant-col-sm-16.ant-col-md-17.ant-col-lg-6.ant-col-xl-6{
+        margin-top: 20px;
+    }
+}
+
+

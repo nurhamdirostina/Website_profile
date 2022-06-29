@@ -11,10 +11,10 @@ function About() {
         <Layout className="about component__space">
             <Content className="container">
                 <Row>
-                    <Col span={9} offset={1}>
+                    <Col xs={14} sm={16} md={17} lg={8} xl={8} offset={2}>
                         <img src={aboutImg} alt="" className="about__img" />
                     </Col>
-                    <Col span={10} offset={2}>
+                    <Col xs={19} sm={20} md={20} lg={12} xl={12} offset={2} >
                         <h1 className="about__heading">
                             About Me
                         </h1>
@@ -24,18 +24,16 @@ function About() {
                                 and I will graduate in 2023.
                             </p>
                             <p className=" p__color left">
-                                I'm a web developer, although I'm not good at it, but I always try so that I can and of course want to learn.
-                            </p>
-                            <p className=" p__color">
+                                I'm a web developer, although I'm not good at it, but I always try so that I can and of course want to learn.<br/>
                                 I can work well in a team and I can accept criticism,
                                 suggestions and opinions from others. Because of my principles, everyone has
                                 the rights they have. Especially the right to an opinion.
                             </p>
-                                <p className=" p__color">
+                                {/* <p className=" p__color">
                                 I am a person who can make decisions quickly and accurately, even in critical situations.
                                 For me, every job is important. Doing it carefully and as 
                                 much as possible is a form of my responsibility.
-                            </p>
+                            </p> */}
                             <Button>
                                 <a href="https://drive.google.com/file/d/1HVg5_EcsxJmQ7pfePWgDW1u6WpV2qlCs/view?usp=drivesdk">Download CV</a>
                             </Button>

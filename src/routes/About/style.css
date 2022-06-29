@@ -4,7 +4,7 @@
 
 img.about__img{
     border-radius: 10px;
-    width: 110%;
+    width: 120%;
 }
 
 h1.about__heading{
@@ -28,3 +28,30 @@ h1.about__heading{
     font-size: 17px;
 }
 
+/* @media only screen and (max-width: 1024px){
+    .p__color{
+        font-size: 15px!important;
+    }
+    h1.about__heading{
+        font-size: 50px;
+    }
+} */
+
+@media only screen and (max-width: 576px){
+    h1.about__heading{
+        font-size: 37px!important;
+    }
+    .p__color{
+        font-size: 15px!important;
+    }
+}
+
+/* @media only screen and (max-width: 413px){
+    .ant-col.ant-col-9.ant-col-offset-1{
+        display: block!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+} */
+
+/* 1374 */

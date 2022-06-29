@@ -61,3 +61,42 @@ h4.home__text{
 .ant-menu-overflow-item.ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child {
     background-color: #47597E;
 }
+
+@media only screen and (max-width: 1024px){
+    h2.home__text.pz__10{
+        font-size: 32px;
+    }
+    h3.home__text.sweet.pz__10 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 646px){
+    h1.home__text {
+        font-size: 17px;
+    }
+    h2.home__text.pz__10 {
+        font-size: 27px;
+    }
+    h3.home__text.sweet.pz__10 {
+        font-size: 20px;
+    }
+    h4.home__text {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 467px){
+    h1.home__text {
+        font-size: 14px;
+    }
+    h2.home__text.pz__10 {
+        font-size: 20px;
+    }
+    h3.home__text.sweet.pz__10 {
+        font-size: 16px;
+    }
+    h4.home__text {
+        font-size: 20px;
+    }
+}

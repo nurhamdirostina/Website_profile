@@ -19,8 +19,25 @@ h1.heading {
     color: #fff;
 }
 
-@media only screen and (max-width: 1024px){
-    .p__color{
-        font-size: 15px!important;
+ /* @media only screen and (max-width: 1024px){
+    .ant-col.ant-col-9.ant-col-offset-4{
+        max-width: 200%;
     }
-}
+    .ant-col.ant-col-9{
+        display: block!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        max-width: 200%;
+        margin-top: 20px;
+    }
+    h1.heading {
+        font-size: 40px;
+    }
+} */
+
+@media only screen and (max-width: 1199px){
+    .ant-card.ant-card-bordered.ant-card-hoverable {
+        margin-top: 20px;
+    }
+} 
+
