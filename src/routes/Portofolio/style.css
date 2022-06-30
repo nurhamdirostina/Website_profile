@@ -20,13 +20,14 @@ h1.heading {
     color: #fff;
 }
 .ant-card.ant-card-bordered.ant-card-hoverable {
-    width: fit-content;
+    width: 116%;
+    max-width: 500px;
 }
 
 .size-img img {
     height: auto;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
 }
  /* @media only screen and (max-width: 1024px){
     .ant-col.ant-col-9.ant-col-offset-4{
@@ -52,13 +53,13 @@ h1.heading {
 
 @media only screen and (max-width: 631px){
     h1.heading {
-        font-size: 50px;
+        font-size: 47px!important;
     }
 } 
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 300px){
     .ant-card-meta-description {
-        font-size: 12px!important;
+        font-size: 10px!important;
     }
 } 
 

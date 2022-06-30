@@ -12,7 +12,7 @@ function Portofolio() {
             <Content>
                 <h1 className="heading" >Portofolio</h1>
                 <Row className="container">
-                    <Col className="img"  xs={14} sm={16} md={17} lg={10} xl={8} offset={3}>
+                    <Col className="img"  xs={17} sm={16} md={17} lg={10} xl={8} offset={3}>
                     <Card className="card1"
                         hoverable
                         style={{
@@ -27,7 +27,7 @@ function Portofolio() {
                     </Card>
                     </Col>
 
-                    <Col  className="size-img"  xs={14} sm={16} md={17} lg={10} xl={8} offset={3}>
+                    <Col  className="size-img"  xs={17} sm={16} md={17} lg={10} xl={8} offset={3}>
                     <Card
                         hoverable
                         style={{
