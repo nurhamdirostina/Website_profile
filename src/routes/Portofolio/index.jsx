@@ -20,7 +20,10 @@ function Portofolio() {
                         }}
                         cover={<img alt="project" src="https://nurhamdirostina.github.io/profile/project1.PNG" />}
                     >
-                        <Meta title="Clodeo Login" description="in this application I created a login form and forgot password according to the existing figma design" />
+                        <Meta 
+                        title="Clodeo Login" 
+                        description="in this application I created a login form and forgot the password according to the existing figma design. 
+                        Inside the login there is an email and password input" />
                     </Card>
                     </Col>
 
@@ -32,7 +35,11 @@ function Portofolio() {
                         }}
                         cover={<img alt="example" src="https://nurhamdirostina.github.io/profile/project2.PNG" />}
                     >
-                        <Meta title="Clodeo Employee" description="clodeo employee" />
+                        <Meta 
+                        title="Clodeo Employee" 
+                        description="and in this application I also created an employee menu, this menu is a place to add new employees, 
+                        when we add new employees we can create a new agenda. On the employee menu there is a list of 
+                        employees containing photos, names, positions, emails and phone numbers, as well as employee updates." />
                     </Card>
                     </Col>                    
                 </Row>

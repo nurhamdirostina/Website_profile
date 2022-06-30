@@ -10,6 +10,7 @@ h1.heading {
 }
 .ant-card-body{
     background: #041C32;
+    height: 205px;
 }
 
 .ant-card-meta-title{
