@@ -13,7 +13,12 @@
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background: #000; */
+    /* background-image: url(https://pin.it/U8QyKu1); */
 }
+/* .text {
+    margin-left: 80px;
+} */
 
 /* li.nav__items{
     font-size: 18px;
@@ -98,5 +103,18 @@ h4.home__text{
     }
     h4.home__text {
         font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 532px){
+    .ant-layout-content.container.home__content.home__bg{
+    background-image: none!important;
+    }
+}
+
+@media only screen and (max-width: 532px){
+    .home__content{
+        text-align: center;
+    
     }
 }

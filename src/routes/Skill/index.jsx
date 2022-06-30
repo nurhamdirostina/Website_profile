@@ -9,7 +9,7 @@ function Skill(){
         <div className="skill component__space">
             <div className="container">
                 <Row>
-                    <Col xs={15} sm={17} md={17} lg={6} xl={6} offset={2}>
+                    <Col xs={20} sm={20} md={17} lg={6} xl={6} offset={2}>
                         <div className="box">
                             <div className="icon">
                               <img src="https://nurhamdirostina.github.io/profile/competence.png" alt="icon" />
@@ -28,7 +28,7 @@ function Skill(){
                         </div>
                         </Col>
 
-                    <Col xs={15} sm={17} md={17} lg={6} xl={6} offset={2}>
+                    <Col xs={20} sm={20} md={17} lg={6} xl={6} offset={2}>
                         <div className="box">
                             <div className="icon">
                               <img src="https://nurhamdirostina.github.io/profile/education.png" alt="icon" />
@@ -44,7 +44,7 @@ function Skill(){
                         </div>
                     </Col>
 
-                    <Col xs={15} sm={17} md={17} lg={6} xl={6} offset={2}>
+                    <Col xs={20} sm={20} md={17} lg={6} xl={6} offset={2}>
                         <div className="box">
                             <div className="icon">
                               <img src="https://nurhamdirostina.github.io/profile/experience.png" alt="icon" />

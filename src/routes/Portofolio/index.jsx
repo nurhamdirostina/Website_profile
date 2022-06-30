@@ -12,11 +12,11 @@ function Portofolio() {
             <Content>
                 <h1 className="heading" >Portofolio</h1>
                 <Row className="container">
-                    <Col xs={14} sm={16} md={17} lg={10} xl={8} offset={3}>
-                    <Card
+                    <Col className="img"  xs={14} sm={16} md={17} lg={10} xl={8} offset={3}>
+                    <Card className="card1"
                         hoverable
                         style={{
-                        width: 450,
+                        // width: 450,
                         }}
                         cover={<img alt="project" src="https://nurhamdirostina.github.io/profile/project1.PNG" />}
                     >
@@ -27,11 +27,11 @@ function Portofolio() {
                     </Card>
                     </Col>
 
-                    <Col xs={19} sm={20} md={20} lg={12} xl={8} offset={3}>
+                    <Col  className="size-img"  xs={14} sm={16} md={17} lg={10} xl={8} offset={3}>
                     <Card
                         hoverable
                         style={{
-                        width: 450,
+                        // width: 450,
                         }}
                         cover={<img alt="example" src="https://nurhamdirostina.github.io/profile/project2.PNG" />}
                     >

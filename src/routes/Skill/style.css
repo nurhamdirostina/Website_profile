@@ -38,8 +38,8 @@
 } */
 
  @media only screen and (max-width: 1440px){
-    .ant-col.ant-col-offset-2.ant-col-xs-15.ant-col-sm-17.ant-col-md-17.ant-col-lg-6.ant-col-xl-6{
-        margin-top: 20px;
+    .ant-col.ant-col-offset-2.ant-col-xs-20.ant-col-sm-20.ant-col-md-17.ant-col-lg-6.ant-col-xl-6{
+        margin-top: 25px;
     }
 }
 

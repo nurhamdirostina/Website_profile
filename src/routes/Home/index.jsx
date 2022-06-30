@@ -9,7 +9,7 @@ const { Header, Content} = Layout;
 function Home() {
     return (
         <Layout className="layout">
-            <div className="home__bg">
+            {/* <div className="home__bg"> */}
                  <Header className="header"
                  style={{
                     position: 'fixed',
@@ -39,8 +39,8 @@ function Home() {
                 </Col>
                 </Row>
                 </Header>
-                <Content className=" container home__content" >
-                    <div className="text">
+                <Content className=" container home__content home__bg" >
+                    <div className="text container">
                         <h1 className="home__text pz__10">
                             WELCOME TO MY WEBSITE 
                         </h1>
@@ -55,7 +55,7 @@ function Home() {
                         </h4>
                     </div>
                 </Content>
-            </div>
+            {/* </div> */}
         </Layout>
     )
 }

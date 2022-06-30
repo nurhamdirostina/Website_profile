@@ -10,7 +10,7 @@ h1.heading {
 }
 .ant-card-body{
     background: #041C32;
-    height: 205px;
+    /* height: 205px; */
 }
 
 .ant-card-meta-title{
@@ -19,7 +19,15 @@ h1.heading {
 .ant-card-meta-description{
     color: #fff;
 }
+.ant-card.ant-card-bordered.ant-card-hoverable {
+    width: fit-content;
+}
 
+.size-img img {
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+}
  /* @media only screen and (max-width: 1024px){
     .ant-col.ant-col-9.ant-col-offset-4{
         max-width: 200%;
@@ -38,7 +46,19 @@ h1.heading {
 
 @media only screen and (max-width: 1199px){
     .ant-card.ant-card-bordered.ant-card-hoverable {
-        margin-top: 20px;
+        margin-top: 25px;
+    }
+} 
+
+@media only screen and (max-width: 631px){
+    h1.heading {
+        font-size: 50px;
+    }
+} 
+
+@media only screen and (max-width: 375px){
+    .ant-card-meta-description {
+        font-size: 12px!important;
     }
 } 
 
